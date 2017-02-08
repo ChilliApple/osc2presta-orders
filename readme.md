@@ -16,6 +16,7 @@ It is RECOMMENDED to first backup your database, before proceed.
 $ git clone https://github.com/ChilliApple/osc2presta-orders.git
 ```
 e.g. 
+
 `$ cd osc2presta-orders/`
 
 ```
