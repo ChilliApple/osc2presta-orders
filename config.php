@@ -5,12 +5,14 @@ define('PS_WS_AUTH_KEY', 'J14PKBRW54I1R9ZTRLICEY2Q95M8C23F');
 define('DEBUG', true);
 $local = true;
 if ($local) {
+    //For Local testing set $local=false for production settings
     define('DB_HOST_1', 'localhost');
     define('DB_USER_1', 'root');
     define('DB_PASSWORD_1', '');
     define('DB_NAME_1', 'osc2ps');
     define('DB_TABLE_PREFIX_1', '');
 } else {
+    //Production DB settings
     define('DB_HOST_1', 'localhost');
     define('DB_USER_1', 'some DB user production');
     define('DB_PASSWORD_1', 'DB password production');
