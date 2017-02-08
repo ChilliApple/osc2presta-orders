@@ -13,7 +13,7 @@ A PHP script to migrate osCommerce orders, requires two DB connections, reads or
 It is RECOMMENDED to first backup your database, before proceed.
 ### How to run
 ```
-git clone https://github.com/ChilliApple/osc2presta-orders.git
+$ git clone https://github.com/ChilliApple/osc2presta-orders.git
 ```
 e.g. 
 `$ cd osc2presta-orders/`
